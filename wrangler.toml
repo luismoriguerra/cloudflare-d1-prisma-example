@@ -10,6 +10,12 @@ compatibility_flags = ["nodejs_compat"]
 [observability]
 enabled = true
 
+
+[[d1_databases]]
+binding = "DB"
+database_name = "prisma-demo-db"
+database_id = "f6b7dd1e-3774-4783-9eef-6d965c1d9eac"
+
 # Automatically place your workloads in an optimal location to minimize latency.
 # If you are running back-end logic in a Worker, running it closer to your back-end infrastructure
 # rather than the end user may result in better performance.
